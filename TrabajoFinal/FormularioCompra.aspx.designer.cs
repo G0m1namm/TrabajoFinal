@@ -67,33 +67,6 @@ namespace TrabajoFinal {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCantidad;
         
         /// <summary>
-        /// Control Etiqueta3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Etiqueta3;
-        
-        /// <summary>
-        /// Control CampoTotal.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CampoTotal;
-        
-        /// <summary>
-        /// Control rfvTotal.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTotal;
-        
-        /// <summary>
         /// Control BotonNuevaFactura.
         /// </summary>
         /// <remarks>

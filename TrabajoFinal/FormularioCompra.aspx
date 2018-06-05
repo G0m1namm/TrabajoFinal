@@ -39,12 +39,6 @@
                             <asp:RequiredFieldValidator ID="rfvCantidad" runat="server" ErrorMessage="Campo necesario!" ForeColor="Red" ControlToValidate="CampoCantidad" ValidationGroup="Admin"></asp:RequiredFieldValidator>
                     </div>
 
-                    <div class="form-group">
-                            <asp:Label ID="Etiqueta3" runat="server" Text="Total: "></asp:Label>
-                            <asp:TextBox ID="CampoTotal" runat="server"></asp:TextBox>
-                            <asp:RequiredFieldValidator ID="rfvTotal" runat="server" ErrorMessage="Campo necesario!" ForeColor="Red" ControlToValidate="CampoTotal" ValidationGroup="Admin"></asp:RequiredFieldValidator>
-                    </div>
-
 
                     <div class="form-group">
                             <asp:Button ID="BotonNuevaFactura" runat="server" Text="Generar nueva factura" CssClass="btn btn-primary btn-2" OnClick="BotonNuevaFactura_Click"/>

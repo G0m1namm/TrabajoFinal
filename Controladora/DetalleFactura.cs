@@ -19,8 +19,8 @@ namespace Controladora
                 AutoMapper.Mapper.CreateMap<Entidades.DetalleFactura, Broker.DetalleFactura>();
 #pragma warning restore CS0618 // El tipo o el miembro están obsoletos 
 
-                Broker.Factura objetoDetalle = AutoMapper.Mapper.Map<Broker.Factura>(detalle);
-                db.Factura.Add(objetoDetalle);
+                Broker.DetalleFactura objetoDetalle = AutoMapper.Mapper.Map<Broker.DetalleFactura>(detalle);
+                db.DetalleFactura.Add(objetoDetalle);
                 db.SaveChanges();
 
                 resultado = true;

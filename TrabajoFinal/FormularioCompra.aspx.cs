@@ -36,12 +36,12 @@ namespace TrabajoFinal
                 Entidades.DetalleFactura entidadDetalle = new Entidades.DetalleFactura
                 {
                     CANTIDAD_VENDIDA = int.Parse(CampoCantidad.Text),
-                    MONTO_TOTAL = float.Parse(CampoTotal.Text),
+                    MONTO_TOTAL = entidadProducto.PRECIO*int.Parse(CampoCantidad.Text),
                     ID_FACTURA = int.Parse(CampoIDVenta2.Text),
                     ID_PRODUCTO = int.Parse(CampoIDProducto.Text)
                 };
 
-                resultado = controladora.CrearVenta(entidadVenta) && detalle.CrearDetalle(entidadDetalle);
+                resultado = controladora.CrearVenta(entidadVenta);
 
                 if (resultado)
                 {
