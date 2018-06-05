@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3c5b141443d24fdbba5493e27fd95c91" Name="Diagram1">
+        <EntityTypeShape EntityType="BDTrabajoFinalModel.Categoria" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDTrabajoFinalModel.Cliente" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDTrabajoFinalModel.Direccion" Width="1.5" PointX="1.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDTrabajoFinalModel.Factura" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDTrabajoFinalModel.Producto" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDTrabajoFinalModel.Proveedor" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDTrabajoFinalModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDTrabajoFinalModel.DetalleFactura" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="BDTrabajoFinalModel.FK_Producto_Categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="BDTrabajoFinalModel.FK_Cliente_Direccion" ManuallyRouted="false" />
+        <AssociationConnector Association="BDTrabajoFinalModel.FK_Factura_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="BDTrabajoFinalModel.FK__DetalleFa__id_fa__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="BDTrabajoFinalModel.FK_DetalleFactura_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="BDTrabajoFinalModel.FK_Producto_Proveedor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
